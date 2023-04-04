@@ -1,0 +1,23 @@
+/* descendant selector (space) */
+
+/* .content .para {
+  color: red;
+} */
+
+/* child selector (>) */
+
+/* .content > .para {
+  color: red;
+} */
+
+/* adjacent sibling selector (+) */
+
+/* .content + h1 + p {
+  color: green;
+} */
+
+/* general sibling selector (~) */
+
+/* .content ~ p {
+  color: green;
+} */
