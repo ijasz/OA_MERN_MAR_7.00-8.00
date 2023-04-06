@@ -1,0 +1,25 @@
+.para::before {
+  content: "The ";
+}
+
+.para::after {
+  content: " King";
+}
+
+.content::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+article::first-line {
+  color: orange;
+  font-variant: small-caps;
+}
+
+li:nth-of-type(1)::marker {
+  color: red;
+}
+
+.content::selection {
+  color: blue;
+}
