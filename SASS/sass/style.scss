@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./classes";
+@import "./mixins";
+
+body {
+  min-height: 100vh;
+  margin: 0%;
+  @include create-box(null, null, $bg-black);
+  color: aliceblue;
+  @extend .center;
+}
+
+.outer-box {
+  @include create-box(200px, 200px, aqua);
+  @extend .center;
+  .inner-box {
+    @include create-box(100px, 100px, white);
+  }
+}

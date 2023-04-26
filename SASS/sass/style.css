@@ -1,0 +1,23 @@
+.center, .outer-box, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0%;
+  background-color: black;
+  color: aliceblue;
+}
+
+.outer-box {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+.outer-box .inner-box {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
